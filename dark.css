@@ -1,4 +1,4 @@
-body[class="darkmode"] {
+body.darkmode {
   background: #282828;
 }
 .darkmode .header {
