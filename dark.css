@@ -1,0 +1,30 @@
+body[class="darkmode"] {
+  background: #282828;
+}
+.darkmode .header {
+  border-color: transparent;
+}
+.darkmode .header a {
+  color: white;
+}
+
+.darkmode .nav #sun {
+  display: block;
+}
+.darkmode .nav #moon {
+  display: none;
+}
+.darkmode .nav ion-icon {
+  color: white;
+}
+.darkmode .nav ion-icon:hover {
+  color: var(--color_defaut);
+}
+
+.darkmode .main .conteiner-opition {
+  border-color: white;
+  color: white;
+}
+.darkmode .main .conteiner-opition a {
+  color: white;
+}

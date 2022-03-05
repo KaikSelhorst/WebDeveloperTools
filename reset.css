@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --color_defaut: #611bb8;
+}
+
+.color-defaut {
+  color: var(--color_defaut);
+}
+
+/* Scroll Bar */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color_defaut);
+  border-radius: 2.5px;
+}
