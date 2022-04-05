@@ -56,6 +56,7 @@
 }
 
 .conteiner-opition ul {
+  overflow-y:visible;
   visibility: hidden;
   transition: 200ms;
   overflow: hidden;
@@ -103,6 +104,7 @@
 
 #icons:checked + .conteiner-opition ul {
   visibility: visible;
+  overflow-y: visible;
   height: 170px;
 }
 
@@ -111,6 +113,7 @@
   transform: rotate(225deg);
 }
 #colors:checked + .conteiner-opition ul {
+  overflow-y: visible;
   visibility: visible;
   height: 170px;
 }
@@ -119,6 +122,7 @@
   transform: rotate(225deg);
 }
 #image:checked + .conteiner-opition ul {
+  overflow-y: visible;
   visibility: visible;
   height: 170px;
 }
@@ -127,6 +131,7 @@
   transform: rotate(225deg);
 }
 #typography:checked + .conteiner-opition ul {
+  overflow-y: visible;
   visibility: visible;
   height: 170px;
 }
@@ -135,6 +140,7 @@
   transform: rotate(225deg);
 }
 #ilustration:checked + .conteiner-opition ul {
+  overflow-y: visible;
   visibility: visible;
   height: 170px;
 }
@@ -143,6 +149,7 @@
   transform: rotate(225deg);
 }
 #hosting:checked + .conteiner-opition ul {
+  overflow-y: visible;
   visibility: visible;
   height: 170px;
 }
